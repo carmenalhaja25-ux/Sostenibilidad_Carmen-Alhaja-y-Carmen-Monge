@@ -1,68 +1,16 @@
-# **Diseño de un Proyecto de Transformación Digital para una Empresa del Sector**
-# **I. Introducción y contexto empresarial** {#i.-introducción-y-contexto-empresarial}
+# Auditoría ASG y Refactorización Sostenible
 
-## 1.1 Descripción 
+## Inventario y Dimensión Ambiental (A)
 
-Se trata de una tienda de conveniencia “24 horas”, por lo que está abierto todos los días del año que ofrece alimentación, bebidas (como Powerade o refrescos), snacks y productos de conveniencia. 
+Analiza el peso y consumo de la web elegida.
 
-## 1.2 Sector, número empleados, estructura organizativa y principales objetivos 
+1. **Medición inicial**. Utiliza herramientas gratuitas como *Website Carbon Calculator* o *Lighthouse* (pestaña de rendimiento en Chrome/Edge) para obtener la huella de carbono estimada por visita.
 
-**SECTOR AL QUE PERTENECE:**  
-Pertenece al sector del comercio minorista. Su actividad principal se centra en la venta al por menor en establecimientos no especializados.
+La herramienta que vamos a utilizar para obtener la huella de carbono estimada por visita es Lighthouse, que es una pestaña de rendimiento en Chrome/Edge.
 
-**NÚMERO DE EMPLEADOS:**  
-Consta de 6 empleados polivalentes (caja, reposición y limpieza básica), 1 encargado/gerente.
+2. **Identificación de Bloatware**. Inspecciona la red (Network) en las herramientas de desarrollador del navegador. Identifica los 3 recursos más pesados que se descargan al abrir la web (imágenes sin comprimir, vídeos de fondo, librerías JavaScript pesadas, etc.).
 
-**ESTRUCTURA ORGANIZATIVA:** 
+Se descargan los siguientes recursos que vemos en la captura. De ellos, los más pesados son un documento de 443kB y dos scripts, el más pesado de 226kB y el menos pesado de 12.9 kB
 
-**Empleados:** 
-| ----- | :---: | :---: | :---: |
-| **Turnos:** | **Turno de Mañana** | **Turno de Tarde** | **Turno de Noche** |
-| **Horario:** | 06:00 – 14:00 | 14:00 – 22:00 | 22:00 – 06:00 |
-| **Personal:** | 1 en caja 1 apoyando (reposición \+ ayuda en caja) | 1 en caja 1 apoyando (reposición \+ ayuda en caja) | 1 persona |
 
-Se hacen turnos rotativos (mañana, tarde, noche)  
-Cada trabajador libra 1–2 días por semana
-
-**Encargados:**  
-Horario:   
-Suele trabajar en horario de día (mañana o partido)  
-No siempre está en tienda por la noche  
-Funciones:  
-Se encarga de pedidos, organización y gestión
-
-**PRINCIPAL OBJETIVO:**  
-Vender productos alimenticios, todos los días del año, las 24 horas del día.
-
-# **II. Diagnóstico inicial** 
-
-* Identificación del nivel de digitalización actual.  
-  * Detección de necesidades y áreas susceptibles de mejora tecnológica.
-
-# III. Objetivos del proyecto de transformación digital 
-
-* Objetivos generales y específicos.  
-  * Resultados esperados a corto, medio y largo plazo.
-
-# IV. Áreas de intervención y soluciones tecnológicas propuestas 
-
-* Propuestas de digitalización en áreas clave: producción, comunicación, ventas, atención al cliente, etc.  
-  * Tecnologías habilitadoras que se aplicarán: cloud, IA, Big Data, IoT, etc.  
-  * Relación entre áreas digitalizadas y no digitalizadas.
-
-# V. Gestión del cambio y recursos humanos 
-
-* Estrategias para la integración del cambio.  
-  * Formación, comunicación interna, cultura digital.  
-  * Evaluación de la idoneidad del equipo humano y necesidades de mejora.
-
-# VI. Seguridad y tratamiento de datos 
-
-* Identificación de brechas de seguridad y soluciones.  
-  * Integración entre plataformas, datos y aplicaciones.  
-  * Estrategia de análisis y protección de datos.
-
-# VII. Conclusión 
-
-* Valoración global del proyecto.  
-  * Recomendaciones para su puesta en marcha real.
+3. **Análisis**. ¿Crees que la web sufre de "inflación de software"? Justifica tu respuesta.
