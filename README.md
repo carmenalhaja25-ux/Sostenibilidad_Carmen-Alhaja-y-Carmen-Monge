@@ -12,8 +12,8 @@ La herramienta que vamos a utilizar para obtener la huella de carbono estimada p
 
 Se descargan los siguientes recursos que vemos en la captura. De ellos, los más pesados son un documento de 443kB y dos scripts, el más pesado de 226kB y el menos pesado de 12.9 kB.
 
-
-<img width="700" height="600" alt="Captura de pantalla 2026-05-12 112758" src="https://github.com/user-attachments/assets/7fa4007f-13ce-4266-aa6e-85b323d3c865"/>
-
+<div align="center">
+  <img width="700" height="600" alt="Captura de pantalla 2026-05-12 112758" src="https://github.com/user-attachments/assets/7fa4007f-13ce-4266-aa6e-85b323d3c865"/>
+</div>
 
 3. **Análisis**. ¿Crees que la web sufre de "inflación de software"? Justifica tu respuesta.
