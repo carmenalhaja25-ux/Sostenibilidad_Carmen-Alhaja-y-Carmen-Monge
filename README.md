@@ -76,3 +76,6 @@ Optimización de activos.
 Como se ve en la imagen, en el código de la web se usan imágenes en formato png. En nuestro código refactorizado usaremos WebP como formato, ya que hemos trabajado anteriormente con él y ofrece tanto una mayor calidad de imagen como optimización en la velocidad de carga en sitios.
 
 <img width="1299" height="149" alt="Captura de pantalla 2026-05-19 114654" src="https://github.com/user-attachments/assets/87764c54-4a96-421d-95a6-00a51633ef6a" />
+
+## 4.2. ¿Implementarías Lazy Loading?
+Si, implementaremos Lazy Loading porque tiene ciertos factores que nos parecen interesantes como la mejora de velocidad del código y de carga de la página web ya que aligera el peso inicial de esta. También hace que se ahorran muchos datos que no son necesarios que se descarguen y si el usuario no llega al final de la página, los datos ocultos, directamente no se descargan.
