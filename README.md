@@ -54,3 +54,16 @@ El bajo contraste es una barrera que afecta a personas con daltonismo, visión r
 * **Solución:** Ajustar la paleta de colores para asegurar que todos los elementos interactivos cumplan con los estándares de ratio de contraste.
 
 Para elevar la equidad de la web de forma inmediata, se recomienda asegurar la **Navegación por Teclado**. Muchas webs olvidan el "foco" (el recuadro que indica dónde estás al pulsar Tab). Sin un indicador de foco visible, los usuarios con diversidad funcional motriz no pueden saber qué elemento están seleccionando. 
+
+# III. Dimensión de Gobernanza y Ética (G)
+
+Revisa cómo trata la empresa a sus usuarios y sus datos:
+
+## 3.1. **Transparencia**. ¿Es fácil rechazar las cookies no esenciales o utilizan "patrones oscuros" (Dark Patterns) para forzar al usuario a aceptarlas?
+
+Al entrar en la página web, no pide que se acepten cookies, deja ver la página con total libertad, salvo si se quiere acceder a los apartados de “Edit this page” y “Page history” de abajo a la izquierda, además de dar la opción de registrarse.
+
+## 3.2. **Datos innecesarios**. ¿Pide la web datos personales excesivos en su formulario de contacto o registro?
+
+La web no pide datos innecesarios, al iniciar sesión, da dos opciones para registrarse dependiendo de si se tiene un “Yale NetID” o no. Si se tiene, pide el NetID y la contraseña, y sino, el correo electrónico y la contraseña. No da la opción de registrarse, puesto que el usuario lo crea Yale, ya que tienes que ser miembro
+
