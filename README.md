@@ -37,15 +37,7 @@ La web debe ser utilizable por todos. Evalúa la accesibilidad (Sostenibilidad S
 
 ## 2.2. **Identificación de barreras**. Documenta al menos 2 problemas graves que impidan a personas con diversidad funcional usar la web correctamente (ej. falta de atributos *alt* en imágenes clave, bajo contraste de colores en botones, formularios sin etiquetas).
 
-### 2.2.1. Problema A: Ausencia de Texto Alternativo (alt) en Imágenes Funcionales
-
-Este es un fallo crítico de **Sostenibilidad Social**, ya que excluye directamente a los usuarios de lectores de pantalla (personas con ceguera o baja visión).
-
-* **Descripción:** Si una imagen que transmite información (como un icono de "Carrito" o un gráfico de datos) no tiene el atributo alt, el lector de pantalla dirá simplemente "Imagen" o leerá el nombre del archivo (ej. IMG\_5432.jpg), dejando al usuario sin contexto.  
-* **Impacto:** El usuario no puede completar procesos de navegación o compra porque no entiende qué acción representa el elemento visual.  
-* **Solución:** Implementar descripciones claras: \<img src="check.png" alt="Pedido completado con éxito"\>.
-
-### 2.2.2. Problema B: Insuficiente Contraste de Color en Textos y Botones
+### 2.2.1. Insuficiente Contraste de Color en Textos y Botones
 
 El bajo contraste es una barrera que afecta a personas con daltonismo, visión reducida o incluso a usuarios en condiciones de mucha luz solar.
 
