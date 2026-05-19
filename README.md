@@ -67,3 +67,12 @@ Al entrar en la página web, no pide que se acepten cookies, deja ver la página
 
 La web no pide datos innecesarios, al iniciar sesión, da dos opciones para registrarse dependiendo de si se tiene un “Yale NetID” o no. Si se tiene, pide el NetID y la contraseña, y sino, el correo electrónico y la contraseña. No da la opción de registrarse, puesto que el usuario lo crea Yale, ya que tienes que ser miembro
 
+# IV. Propuesta de Refactorización (Green Coding)
+
+Como desarrollador/a, no basta con encontrar los fallos; debes proponer soluciones. Redacta una propuesta de mejora técnica detallando:
+Optimización de activos.
+
+## 4.1. ¿Qué formatos usarías para sustituir las imágenes actuales (ej. WebP, AVIF)?
+Como se ve en la imagen, en el código de la web se usan imágenes en formato png. En nuestro código refactorizado usaremos WebP como formato, ya que hemos trabajado anteriormente con él y ofrece tanto una mayor calidad de imagen como optimización en la velocidad de carga en sitios.
+
+<img width="1299" height="149" alt="Captura de pantalla 2026-05-19 114654" src="https://github.com/user-attachments/assets/87764c54-4a96-421d-95a6-00a51633ef6a" />
