@@ -130,3 +130,20 @@ A continuación, se detalla una propuesta de mejora técnica estructurada para l
 **Mejora de la privacidad:** Mantener la política actual de minimización de datos en los accesos y registros (solicitando exclusivamente NetID o correo electrónico y contraseña), protegiendo la identidad y evitando el almacenamiento innecesario de metadatos o información personal.
 
 ## 5.4. Propuesta técnica:
+### Ejemplos de código mejorado (Comparativa "Antes y Después")
+
+**Dimensión Ambiental (A): Optimización de imágenes y scripts**
+
+**Antes:** Código ineficiente con formato antiguo.
+
+
+```html
+<link rel="shortcut icon" type="image/png" href="https://d1d46yb6s756qi.cloudfront.net/assets/favicon-1da2c86914b59712136d96701aa47e90a7c71c3cf2ddc54ecf5ab33210a224d3.png"> 
+
+```
+
+**Después:** Formato optimizado.
+
+
+```html
+<link rel="icon" type="image/webp" href="assets\favicon-1da2c86914b59712136d96701aa47e90a7c71c3cf2ddc54ecf5ab33210a224d3.webp">
