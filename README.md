@@ -13,15 +13,15 @@ La herramienta que vamos a utilizar para obtener la huella de carbono estimada p
 Se descargan los siguientes recursos que vemos en la captura. De ellos, los más pesados son un documento de 443kB y dos scripts, el más pesado de 226kB y el menos pesado de 12.9 kB.
 
 <div align="center">
-  <img width="700" height="600" alt="Captura de pantalla 2026-05-12 112758" src="https://github.com/user-attachments/assets/7fa4007f-13ce-4266-aa6e-85b323d3c865"/>
+  <img width="700" height="600" alt="Captura de pantalla 2026-05-12 112758" src="assets/recursos_mas_pesados.webp"/>
 </div>
 
 ## 1.3. **Análisis**. ¿Crees que la web sufre de "inflación de software"?
 Teniendo en cuenta que cada minuto que pasa va creciendo el número de recursos, pasando desde que lo abrimos por primera vez, de 49 hasta 56 en cuestión de minutos.
 Decimos que sí hay inflación de software, aunque no a gran escala porque la cantidad de procesos, aunque aumenta, no consideramos que sea excesiva. El rendimiento en dispositivos móviles es más bajo, con una puntuación de 41 y en ordenadores con una puntuación de 69, un poco más alta, pero aún así sigue muy lejos del 100.
 <div align="center">
-  <img width="419" height="348" alt="Captura de pantalla 2026-05-12 115700" src="https://github.com/user-attachments/assets/2e870d03-f090-4f3c-87a2-bea8121153b6" /> 
-  <img width="420" height="354" alt="Captura de pantalla 2026-05-12 115723" src="https://github.com/user-attachments/assets/64f72c0c-d706-4325-a617-f96de90afc82" />
+  <img width="419" height="348" alt="Captura de pantalla 2026-05-12 115700" src="assets/rendimiento41.webp" /> 
+  <img width="420" height="354" alt="Captura de pantalla 2026-05-12 115723" src="assets/rendimiento69.webp" />
 </div>
 
 # II. Dimensión Social y Equidad (S)
@@ -75,7 +75,7 @@ Optimización de activos.
 ## 4.1. ¿Qué formatos usarías para sustituir las imágenes actuales (ej. WebP, AVIF)?
 Como se ve en la imagen, en el código de la web se usan imágenes en formato png. En nuestro código refactorizado usaremos WebP como formato, ya que hemos trabajado anteriormente con él y ofrece tanto una mayor calidad de imagen como optimización en la velocidad de carga en sitios.
 
-<img width="1299" height="149" alt="Captura de pantalla 2026-05-19 114654" src="https://github.com/user-attachments/assets/87764c54-4a96-421d-95a6-00a51633ef6a" />
+<img width="1299" height="149" alt="Captura de pantalla 2026-05-19 114654" src="assets/optimizacion.webp" />
 
 ## 4.2. ¿Implementarías Lazy Loading?
 Si, implementaremos Lazy Loading porque tiene ciertos factores que nos parecen interesantes como la mejora de velocidad del código y de carga de la página web ya que aligera el peso inicial de esta. También hace que se ahorran muchos datos que no son necesarios que se descarguen y si el usuario no llega al final de la página, los datos ocultos, directamente no se descargan.
