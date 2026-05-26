@@ -103,14 +103,22 @@ Uso de Redes de Distribución de Contenido Sostenibles: Utilizar CDNs distribuid
 A continuación, se detalla una propuesta de mejora técnica estructurada para la web analizada, aplicando principios de *Eco-diseño Digital*, *Green Coding* y accesibilidad universal.
 
 ## 5.1. Posibles mejoras ambientales:
-**Optimización de imágenes (WebP, compresión):** Sustituir el formato actual de las imágenes (`.png`) por formatos de última generación como **WebP**. Esto permite mantener la calidad visual reduciendo el peso del archivo y optimizando la velocidad de carga inicial de la página.
+**Optimización de imágenes (WebP, compresión):** Sustituir el formato actual de las imágenes (".png") por formatos de última generación como **WebP**. Esto permite mantener la calidad visual reduciendo el peso del archivo y optimizando la velocidad de carga inicial de la página.
 
 **Reducción de peticiones HTTP:** Minimizar las conexiones al servidor aplazando scripts externos que no sean críticos y eliminando llamadas redundantes a recursos innecesarios.
 
-**Lazy loading:** Implementar la carga diferida mediante el atributo nativo `loading="lazy"`. Con esto se evita la descarga automática de imágenes situadas fuera del primer scroll, aligerando el peso inicial de la web y logrando un importante ahorro de datos para el usuario.
+**Lazy loading:** Implementar la carga diferida mediante el atributo nativo "loading="lazy"". Con esto se evita la descarga automática de imágenes situadas fuera del primer scroll, aligerando el peso inicial de la web y logrando un importante ahorro de datos para el usuario.
 
 **Eliminación de código no utilizado:** Identificar, limpiar y purgar las librerías o scripts pesados detectados en la pestaña *Network* que dejen rastro de "software inflado" (*bloatware*) y consuman procesamiento innecesario en la CPU del cliente.
 
 ## 5.2. Posibles mejoras sociales:
+**Uso de HTML semántico (header, nav, main, etc.):** Reestructurar la arquitectura interna de la web reemplazando los contenedores genéricos ("<div>") por etiquetas nativas de HTML5. Esto mejora la indexación y es clave para que las tecnologías asistenciales interpreten correctamente la jerarquía del sitio.
+
+**Inclusión de atributos "alt":** Incorporar descripciones textuales claras en todas las imágenes funcionales. Al resolver esta ausencia, se elimina una barrera crítica de exclusión para personas ciegas o con visión reducida que dependen de lectores de pantalla.
+
+**Mejora del contraste:** Ajustar las hojas de estilo (CSS) para que las combinaciones de color de los textos y botones interactivos superen una relación de contraste mínima de 4.5:1. Con esto se mitiga la fatiga visual y se garantiza la legibilidad bajo cualquier condición lumínica.
+
+**Navegación accesible:** Asegurar la navegación íntegra mediante el teclado, garantizando que el indicador visual de foco (`:focus`) sea perfectamente visible al pulsar la tecla Tab. Esto permite que usuarios con diversidad funcional motriz sepan exactamente qué elemento están seleccionando.
+
 ## 5.3. Posibles mejoras de gobernanza:
 ## 5.4. Propuesta técnica:
