@@ -98,3 +98,7 @@ Implementación de Service Workers (PWA): Convertir la web en una Aplicación We
 Infraestructura y Sostenibilidad en el Servidor
 Green Hosting: Alojar la infraestructura del sitio en centros de datos que funcionen al 100% con energía renovable certificada y que cuenten con sistemas avanzados de refrigeración eficiente.
 Uso de Redes de Distribución de Contenido Sostenibles: Utilizar CDNs distribuidas geográficamente que también utilicen energías limpias. Al servir los archivos desde el nodo más cercano al usuario, se reduce la distancia física que recorren los datos a través de la infraestructura global de internet, disminuyendo el consumo energético de la red de tránsito.
+
+# V. Refactorización. Propuesta
+A continuación, se detalla una propuesta de mejora técnica estructurada para la web analizada, aplicando principios de *Eco-diseño Digital*, *Green Coding* y accesibilidad universal.
+
