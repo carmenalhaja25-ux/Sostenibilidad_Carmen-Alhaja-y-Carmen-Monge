@@ -102,3 +102,7 @@ Uso de Redes de Distribución de Contenido Sostenibles: Utilizar CDNs distribuid
 # V. Refactorización. Propuesta
 A continuación, se detalla una propuesta de mejora técnica estructurada para la web analizada, aplicando principios de *Eco-diseño Digital*, *Green Coding* y accesibilidad universal.
 
+## 5.1. Posibles mejoras ambientales:
+## 5.2. Posibles mejoras sociales:
+## 5.3. Posibles mejoras de gobernanza:
+## 5.4. Propuesta técnica:
