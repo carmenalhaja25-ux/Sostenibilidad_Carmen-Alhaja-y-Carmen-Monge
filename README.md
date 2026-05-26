@@ -103,6 +103,14 @@ Uso de Redes de Distribución de Contenido Sostenibles: Utilizar CDNs distribuid
 A continuación, se detalla una propuesta de mejora técnica estructurada para la web analizada, aplicando principios de *Eco-diseño Digital*, *Green Coding* y accesibilidad universal.
 
 ## 5.1. Posibles mejoras ambientales:
+**Optimización de imágenes (WebP, compresión):** Sustituir el formato actual de las imágenes (`.png`) por formatos de última generación como **WebP**. Esto permite mantener la calidad visual reduciendo el peso del archivo y optimizando la velocidad de carga inicial de la página.
+
+**Reducción de peticiones HTTP:** Minimizar las conexiones al servidor aplazando scripts externos que no sean críticos y eliminando llamadas redundantes a recursos innecesarios.
+
+**Lazy loading:** Implementar la carga diferida mediante el atributo nativo `loading="lazy"`. Con esto se evita la descarga automática de imágenes situadas fuera del primer scroll, aligerando el peso inicial de la web y logrando un importante ahorro de datos para el usuario.
+
+**Eliminación de código no utilizado:** Identificar, limpiar y purgar las librerías o scripts pesados detectados en la pestaña *Network* que dejen rastro de "software inflado" (*bloatware*) y consuman procesamiento innecesario en la CPU del cliente.
+
 ## 5.2. Posibles mejoras sociales:
 ## 5.3. Posibles mejoras de gobernanza:
 ## 5.4. Propuesta técnica:
