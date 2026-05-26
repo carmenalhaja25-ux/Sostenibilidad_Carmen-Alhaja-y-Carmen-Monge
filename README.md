@@ -109,7 +109,7 @@ A continuación, se detalla una propuesta de mejora técnica estructurada para l
 
 **Lazy loading:** Implementar la carga diferida mediante el atributo nativo "loading="lazy"". Con esto se evita la descarga automática de imágenes situadas fuera del primer scroll, aligerando el peso inicial de la web y logrando un importante ahorro de datos para el usuario.
 
-**Eliminación de código no utilizado:** Identificar, limpiar y purgar las librerías o scripts pesados detectados en la pestaña *Network* que dejen rastro de "software inflado" (*bloatware*) y consuman procesamiento innecesario en la CPU del cliente.
+**Eliminación de código no utilizado:** Identificar, limpiar y purgar las librerías o scripts pesados detectados en la pestaña Network que dejen rastro de "software inflado" (bloatware) y consuman procesamiento innecesario en la CPU del cliente.
 
 ## 5.2. Posibles mejoras sociales:
 **Uso de HTML semántico (header, nav, main, etc.):** Reestructurar la arquitectura interna de la web reemplazando los contenedores genéricos (como el uso de la etiquita "div") por etiquetas nativas de HTML5. Esto mejora la indexación y es clave para que las tecnologías asistenciales interpreten correctamente la jerarquía del sitio.
@@ -121,4 +121,12 @@ A continuación, se detalla una propuesta de mejora técnica estructurada para l
 **Navegación accesible:** Asegurar la navegación íntegra mediante el teclado, garantizando que el indicador visual de foco (`:focus`) sea perfectamente visible al pulsar la tecla Tab. Esto permite que usuarios con diversidad funcional motriz sepan exactamente qué elemento están seleccionando.
 
 ## 5.3. Posibles mejoras de gobernanza:
+**Implementación de consentimiento de cookies transparente:** Diseñar un sistema o banner explícito en el caso de que se escalen funciones interactivas o analíticas en el sitio. El usuario debe poder rechazar las cookies no esenciales con la misma facilidad y número de clics con los que las acepta.
+
+**Simplificación de textos legales:** Redactar la política de privacidad y los términos de uso en un lenguaje claro, accesible y directo, evitando tecnicismos jurídicos que confundan al usuario.
+
+**Eliminación de prácticas engañosas:** Asegurar la ausencia de patrones oscuros diseñados para forzar u orientar las decisiones de privacidad del visitante de forma maliciosa.
+
+**Mejora de la privacidad:** Mantener la política actual de minimización de datos en los accesos y registros (solicitando exclusivamente NetID o correo electrónico y contraseña), protegiendo la identidad y evitando el almacenamiento innecesario de metadatos o información personal.
+
 ## 5.4. Propuesta técnica:
