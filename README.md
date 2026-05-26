@@ -112,7 +112,7 @@ A continuación, se detalla una propuesta de mejora técnica estructurada para l
 **Eliminación de código no utilizado:** Identificar, limpiar y purgar las librerías o scripts pesados detectados en la pestaña *Network* que dejen rastro de "software inflado" (*bloatware*) y consuman procesamiento innecesario en la CPU del cliente.
 
 ## 5.2. Posibles mejoras sociales:
-**Uso de HTML semántico (header, nav, main, etc.):** Reestructurar la arquitectura interna de la web reemplazando los contenedores genéricos ("<div>") por etiquetas nativas de HTML5. Esto mejora la indexación y es clave para que las tecnologías asistenciales interpreten correctamente la jerarquía del sitio.
+**Uso de HTML semántico (header, nav, main, etc.):** Reestructurar la arquitectura interna de la web reemplazando los contenedores genéricos (como el uso de la etiquita "div") por etiquetas nativas de HTML5. Esto mejora la indexación y es clave para que las tecnologías asistenciales interpreten correctamente la jerarquía del sitio.
 
 **Inclusión de atributos "alt":** Incorporar descripciones textuales claras en todas las imágenes funcionales. Al resolver esta ausencia, se elimina una barrera crítica de exclusión para personas ciegas o con visión reducida que dependen de lectores de pantalla.
 
