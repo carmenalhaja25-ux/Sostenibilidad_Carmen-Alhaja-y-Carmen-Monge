@@ -79,3 +79,22 @@ Como se ve en la imagen, en el código de la web se usan imágenes en formato pn
 
 ## 4.2. ¿Implementarías Lazy Loading?
 Si, implementaremos Lazy Loading porque tiene ciertos factores que nos parecen interesantes como la mejora de velocidad del código y de carga de la página web ya que aligera el peso inicial de esta. También hace que se ahorran muchos datos que no son necesarios que se descarguen y si el usuario no llega al final de la página, los datos ocultos, directamente no se descargan.
+
+## 4.3. ¿Qué librerías o scripts externos eliminarías o aplazarías para mejorar la eficiencia del código y reducir el procesamiento en el dispositivo del cliente?
+Para mejorar la eficiencia en el dispositivo del cliente y reducir las conexiones innecesarias al servidor, haremos los siguientes cambios:
+Los scripts detectados en la auditoría de red bloquean el renderizado del HTML. Aplicar el atributo defer asegura que el script se descargue en segundo plano y solo se ejecute una vez que el DOM esté completamente cargado.
+Si la web utiliza frameworks o librerías completas (como Bootstrap JS o jQuery) solo para pequeñas interacciones (menús desplegables, modales), las eliminaremos.
+
+## 4.4. Si optimizamos la web y la carga mucho más rápido, podríamos atraer a muchos más usuarios diarios. ¿Cómo evitarías que este éxito anule el ahorro energético conseguido?
+La paradoja de Jevons afirma que a medida que el progreso tecnológico aumenta la eficiencia con la que se utiliza un recurso, el consumo total de ese recurso tiende a aumentar en lugar de disminuir, debido a una mayor demanda.
+
+En el diseño web, si optimizamos el sitio para que sea ligero y rápido, la experiencia de usuario mejora, lo que inevitablemente atraerá a más tráfico y aumentará el tiempo de permanencia en la página. Para evitar que este éxito de visitas anule el ahorro energético conseguido por la refactorización, implementaríamos las siguientes estrategias de mitigación:
+
+Arquitectura Eficiente y Almacenamiento
+Políticas estrictas de Caché (HTTP Caching): Configurar correctamente las cabeceras de caché (Cache-Control) para que los usuarios recurrentes no tengan que descargar ni un solo kilobyte de código estático (CSS, JS, logos) en sus siguientes visitas, eliminando la transferencia de datos casi por completo.
+
+Implementación de Service Workers (PWA): Convertir la web en una Aplicación Web Progresiva para almacenar en caché los activos de forma local en el dispositivo del usuario. De este modo, las visitas posteriores consumen cero energía de red y de servidor.
+
+Infraestructura y Sostenibilidad en el Servidor
+Green Hosting: Alojar la infraestructura del sitio en centros de datos que funcionen al 100% con energía renovable certificada y que cuenten con sistemas avanzados de refrigeración eficiente.
+Uso de Redes de Distribución de Contenido Sostenibles: Utilizar CDNs distribuidas geográficamente que también utilicen energías limpias. Al servir los archivos desde el nodo más cercano al usuario, se reduce la distancia física que recorren los datos a través de la infraestructura global de internet, disminuyendo el consumo energético de la red de tránsito.
