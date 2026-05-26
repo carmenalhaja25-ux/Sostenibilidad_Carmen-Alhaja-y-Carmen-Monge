@@ -130,9 +130,9 @@ A continuación, se detalla una propuesta de mejora técnica estructurada para l
 **Mejora de la privacidad:** Mantener la política actual de minimización de datos en los accesos y registros (solicitando exclusivamente NetID o correo electrónico y contraseña), protegiendo la identidad y evitando el almacenamiento innecesario de metadatos o información personal.
 
 ## 5.4. Propuesta técnica:
-### Ejemplos de código mejorado (Comparativa "Antes y Después")
+## Ejemplos de código mejorado (Comparativa "Antes y Después")
 
-**Dimensión Ambiental (A): Optimización de imágenes y scripts**
+### 5.4.1. **Dimensión Ambiental (A): Optimización de imágenes y scripts**
 
 **Antes:** Código ineficiente con formato antiguo.
 
@@ -147,3 +147,46 @@ A continuación, se detalla una propuesta de mejora técnica estructurada para l
 
 ```html
 <link rel="icon" type="image/webp" href="assets\favicon-1da2c86914b59712136d96701aa47e90a7c71c3cf2ddc54ecf5ab33210a224d3.webp">
+
+```
+
+### 5.4.2. **Dimensión Social (S): Estructura semántica y accesibilidad universal**
+
+**Antes:** Maquetación sin semántica, sin alternativas textuales y con el foco del teclado desactivado en el diseño visual.
+
+
+```html
+<div class="top-bar">
+  <div class="nav-button" onclick="location.href='/history'"><img src="history-icon.png"></div>
+</div>
+<style>
+  body { color: #aaaaaa; background-color: #ffffff; } <!-- Contraste insuficiente -->
+  *:focus { outline: none; } <!-- Barrera crítica: elimina el foco visible -->
+</style>
+
+```
+
+**Después:** Uso de HTML5 semántico, botones nativos con etiquetas de accesibilidad, contraste corregido e indicador de foco visible.
+
+
+```html
+<header>
+  <nav>
+    <button aria-label="Ver el historial de la página"> <!--aria-label se utiliza para hacer descripciones no visibles-->
+      <img src="icono.svg" alt="" aria-hidden="true" /> <!--aria-hidden permite que el icono (en este caso) sea visible pero no accesible-->
+    </button>
+  </nav>
+</header>
+<style>
+  body { 
+    color: #2b2b2b; <!-- Contraste óptimo superior a 4.5:1 -->
+    background-color: #ffffff; 
+  }
+  <!-- Indicador claro y accesible para navegación por teclado -->
+  *:focus-visible { 
+    outline: 3px solid #0056b3; 
+    outline-offset: 2px; 
+  }
+</style>
+
+```
